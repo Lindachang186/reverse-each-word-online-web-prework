@@ -8,5 +8,4 @@ def reverse_each_word(sentence)
     reverse.each do |word|
       word.reverse
     end
-    reverse.join(" ")
-end
+  end
