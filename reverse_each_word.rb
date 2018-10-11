@@ -1,4 +1,7 @@
 def reverse_each_word(sentence)
-    sentence.reverse
-  end
-    
+    reverse = []
+    reverse.push(sentence)
+    reverse.collect do |word|
+      word.reverse
+    end
+end
